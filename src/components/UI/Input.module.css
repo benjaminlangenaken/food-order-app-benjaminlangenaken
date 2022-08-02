@@ -1,0 +1,19 @@
+.input {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.input label {
+	font-weight: bold;
+	margin-right: 0.5rem;
+}
+
+.input input {
+	width: 3rem;
+	border-radius: 5px;
+	background-color: #f1faee;
+	border: 1px solid #84a98c;
+	font: inherit;
+	text-align: center;
+}
