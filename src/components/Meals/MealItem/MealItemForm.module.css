@@ -22,3 +22,8 @@
 .form input {
 	color: #2f3e46;
 }
+
+.form p {
+	font-size: 0.8rem;
+	margin-bottom: 0;
+}
