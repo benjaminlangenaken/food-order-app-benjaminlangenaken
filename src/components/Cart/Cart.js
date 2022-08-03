@@ -7,14 +7,9 @@ import CartItem from './CartItem';
 const Cart = (props) => {
 	const ctx = useContext(CartContext);
 
-	// const addToCartHandler = (item) => {
-	// 	ctx.addItem({
-	// 		id: props.id,
-	// 		name: props.name,
-	// 		amount: props.amount,
-	// 		price: props.price,
-	// 	});
-	// };
+	const addToCartHandler = (item) => {
+		ctx.addItem({...item, amount: 1});
+	};
 
 	// const removeFromCartHandler = (id) => {
 	// 	ctx.removeItem({
@@ -32,11 +27,11 @@ const Cart = (props) => {
 			amount={item.amount}
 			price={item.price}
 			// We need to pass an anonymous function as a prop so we can also add arguments to addToCartHandler and removeFromCartHandler
-			// onAdd={() => {
-			// 	addToCartHandler(item.id);
-			// }}
+			onAdd={() => {
+				addToCartHandler(item);
+			}}
 			// onRemove={() => {
-			// 	removeFromCartHandler(item);
+			// 	removeFromCartHandler(item.id);
 			// }}
 		/>
 	));
