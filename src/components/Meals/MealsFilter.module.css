@@ -1,0 +1,27 @@
+.meals-filter {
+	color: #354f52;
+	padding: 0 1rem;
+	font-size: 1.1rem;
+}
+
+.meals-filter__control {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1rem 0;
+}
+
+.meals-filter label {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.meals-filter select {
+	font: inherit;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	border-radius: 6px;
+	color: #354f52;
+	background-color: #f1faee;
+}
