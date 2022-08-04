@@ -26,3 +26,8 @@
 		transform: translateY(0);
 	}
 }
+
+.no-meals {
+	margin: 1.25rem;
+	color: #2f3e46;
+}

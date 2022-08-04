@@ -5,8 +5,6 @@
 	background-color: #cad2c5;
 	width: 24.16667%;
 	padding: rem(15px) rem(20px);
-	margin-left: 0;
-	margin-right: 0.833333%;
 	height: 35rem;
 }
 
@@ -16,7 +14,7 @@
 	padding: 0;
 	padding-bottom: rem(15px);
 	border-bottom: 1px solid #cad2c5;
-	margin-bottom: rem(15px);
+	margin: 1rem;
 }
 
 .filter-section h3 {

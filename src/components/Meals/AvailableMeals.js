@@ -98,7 +98,15 @@ const AvailableMeals = () => {
 					onFilterWarmthSubmit={filterWarmthSubmitHandler}
 					filteredFoodWarmth={filteredWarmth}
 				/>
-				<ul>{mealsList}</ul>
+				<ul>
+					{mealsList.length === 0 ? (
+						<h3 className={classes['no-meals']}>
+							No dishes for this selection...
+						</h3>
+					) : (
+						mealsList
+					)}
+				</ul>
 			</Card>
 		</section>
 	);
